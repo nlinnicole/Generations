@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 6da085466ff989e45ac90f7227dfb984
+timeCreated: 1511494747
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Back_Foot_L
+    100004: Back_Foot_L_end
+    100006: Back_Foot_R
+    100008: Back_Foot_R_end
+    100010: Back_Leg_Bot_L
+    100012: Back_Leg_Bot_L_end
+    100014: Back_Leg_Bot_R
+    100016: Back_Leg_Bot_R_end
+    100018: Back_Leg_Joint_L
+    100020: Back_Leg_Joint_R
+    100022: Back_Leg_Mid_L
+    100024: Back_Leg_Mid_R
+    100026: Back_Leg_Pole_L
+    100028: Back_Leg_Pole_L_end
+    100030: Back_Leg_Pole_R
+    100032: Back_Leg_Pole_R_end
+    100034: Back_Leg_Target_L
+    100036: Back_Leg_Target_R
+    100038: Back_Leg_Top_L
+    100040: Back_Leg_Top_R
+    100042: Cube
+    100044: //RootNode
+    100046: Front_Foot_R
+    100048: Front_Foot_R_end
+    100050: Front_Leg_Bot_L
+    100052: Front_Leg_Bot_L_end
+    100054: Front_Leg_Foot_L
+    100056: Front_Leg_Foot_L_end
+    100058: Front_Leg_Joint_L
+    100060: Front_Leg_Joint_R
+    100062: Front_Leg_Mid_R
+    100064: Front_Leg_Mid_R_end
+    100066: Front_Leg_Pole_L
+    100068: Front_Leg_Pole_L_end
+    100070: Front_Leg_Pole_R
+    100072: Front_Leg_Pole_R_end
+    100074: Front_Leg_Target_L
+    100076: Front_Leg_Target_R
+    100078: Front_Leg_Top_L
+    100080: Front_Leg_Top_R
+    100082: Head
+    100084: Head_end
+    100086: Head_Target
+    100088: Neck
+    100090: Neck_end
+    100092: Spine_01
+    100094: Spine_02
+    100096: Spine_03
+    100098: Spine_04
+    100100: Spine_Target
+    100102: Tail_Bot_L
+    100104: Tail_Bot_L_end
+    100106: Tail_Bot_R
+    100108: Tail_Bot_R_end
+    100110: Tail_Mid_L
+    100112: Tail_Mid_L_end
+    100114: Tail_Mid_R
+    100116: Tail_Mid_R_end
+    100118: Tail_Pole_L
+    100120: Tail_Pole_L_end
+    100122: Tail_Pole_R
+    100124: Tail_Pole_R_end
+    100126: Tail_Target_L
+    100128: Tail_Target_R
+    100130: Tail_Top_L
+    100132: Tail_Top_R
+    400000: Armature
+    400002: Back_Foot_L
+    400004: Back_Foot_L_end
+    400006: Back_Foot_R
+    400008: Back_Foot_R_end
+    400010: Back_Leg_Bot_L
+    400012: Back_Leg_Bot_L_end
+    400014: Back_Leg_Bot_R
+    400016: Back_Leg_Bot_R_end
+    400018: Back_Leg_Joint_L
+    400020: Back_Leg_Joint_R
+    400022: Back_Leg_Mid_L
+    400024: Back_Leg_Mid_R
+    400026: Back_Leg_Pole_L
+    400028: Back_Leg_Pole_L_end
+    400030: Back_Leg_Pole_R
+    400032: Back_Leg_Pole_R_end
+    400034: Back_Leg_Target_L
+    400036: Back_Leg_Target_R
+    400038: Back_Leg_Top_L
+    400040: Back_Leg_Top_R
+    400042: Cube
+    400044: //RootNode
+    400046: Front_Foot_R
+    400048: Front_Foot_R_end
+    400050: Front_Leg_Bot_L
+    400052: Front_Leg_Bot_L_end
+    400054: Front_Leg_Foot_L
+    400056: Front_Leg_Foot_L_end
+    400058: Front_Leg_Joint_L
+    400060: Front_Leg_Joint_R
+    400062: Front_Leg_Mid_R
+    400064: Front_Leg_Mid_R_end
+    400066: Front_Leg_Pole_L
+    400068: Front_Leg_Pole_L_end
+    400070: Front_Leg_Pole_R
+    400072: Front_Leg_Pole_R_end
+    400074: Front_Leg_Target_L
+    400076: Front_Leg_Target_R
+    400078: Front_Leg_Top_L
+    400080: Front_Leg_Top_R
+    400082: Head
+    400084: Head_end
+    400086: Head_Target
+    400088: Neck
+    400090: Neck_end
+    400092: Spine_01
+    400094: Spine_02
+    400096: Spine_03
+    400098: Spine_04
+    400100: Spine_Target
+    400102: Tail_Bot_L
+    400104: Tail_Bot_L_end
+    400106: Tail_Bot_R
+    400108: Tail_Bot_R_end
+    400110: Tail_Mid_L
+    400112: Tail_Mid_L_end
+    400114: Tail_Mid_R
+    400116: Tail_Mid_R_end
+    400118: Tail_Pole_L
+    400120: Tail_Pole_L_end
+    400122: Tail_Pole_R
+    400124: Tail_Pole_R_end
+    400126: Tail_Target_L
+    400128: Tail_Target_R
+    400130: Tail_Top_L
+    400132: Tail_Top_R
+    4300000: Cube
+    7400000: Armature|Bow
+    7400002: Armature|CubeAction
+    7400004: Armature|Drinking
+    7400006: Armature|WalkCycle
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Bow
+      takeName: Armature|Bow
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Drinking
+      takeName: Armature|Drinking
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|WalkCycle
+      takeName: Armature|WalkCycle
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
