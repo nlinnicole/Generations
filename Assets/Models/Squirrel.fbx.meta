@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: a1a1f6db70d2b54479a3082d066cef59
+timeCreated: 1511678476
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Arm_L
+    100002: Arm_L_1
+    100004: Arm_L_2
+    100006: Arm_L_2_end
+    100008: Arm_R_1
+    100010: Arm_R_2
+    100012: Arm_R_2_end
+    100014: Armature
+    100016: BackPaw_L
+    100018: BackPaw_L_end
+    100020: BackPaw_R
+    100022: BackPaw_R_end
+    100024: Body
+    100026: Body 2
+    100028: Bone_IK_front_L
+    100030: Bone_IK_front_R
+    100032: Bone_IK_L
+    100034: Bone_IK_R
+    100036: Bone_R.005
+    100038: boneIK _front
+    100040: boneIK _front_end
+    100042: FronPaw_R
+    100044: FronPaw_R_end
+    100046: FrontPaw_L
+    100048: FrontPaw_L_end
+    100050: Head
+    100052: Head_end
+    100054: IK_Tail
+    100056: IK_Tail_end
+    100058: leg_L
+    100060: Leg_L_1
+    100062: Leg_L_2
+    100064: Leg_L_3
+    100066: Leg_L_3_end
+    100068: Leg_R
+    100070: Leg_R_1
+    100072: Leg_R_2
+    100074: Leg_R_3
+    100076: Leg_R_3_end
+    100078: Neck
+    100080: //RootNode
+    100082: Squirrel
+    100084: Tail_1
+    100086: Tail_2
+    100088: Tail_3
+    100090: Tail_4
+    100092: Tail_5
+    100094: Tail_5_end
+    400000: Arm_L
+    400002: Arm_L_1
+    400004: Arm_L_2
+    400006: Arm_L_2_end
+    400008: Arm_R_1
+    400010: Arm_R_2
+    400012: Arm_R_2_end
+    400014: Armature
+    400016: BackPaw_L
+    400018: BackPaw_L_end
+    400020: BackPaw_R
+    400022: BackPaw_R_end
+    400024: Body
+    400026: Body 2
+    400028: Bone_IK_front_L
+    400030: Bone_IK_front_R
+    400032: Bone_IK_L
+    400034: Bone_IK_R
+    400036: Bone_R.005
+    400038: boneIK _front
+    400040: boneIK _front_end
+    400042: FronPaw_R
+    400044: FronPaw_R_end
+    400046: FrontPaw_L
+    400048: FrontPaw_L_end
+    400050: Head
+    400052: Head_end
+    400054: IK_Tail
+    400056: IK_Tail_end
+    400058: leg_L
+    400060: Leg_L_1
+    400062: Leg_L_2
+    400064: Leg_L_3
+    400066: Leg_L_3_end
+    400068: Leg_R
+    400070: Leg_R_1
+    400072: Leg_R_2
+    400074: Leg_R_3
+    400076: Leg_R_3_end
+    400078: Neck
+    400080: Squirrel
+    400082: //RootNode
+    400084: Tail_1
+    400086: Tail_2
+    400088: Tail_3
+    400090: Tail_4
+    400092: Tail_5
+    400094: Tail_5_end
+    4300000: Squirrel
+    7400000: Armature|ArmatureAction
+    7400002: Armature|CameraAction
+    7400004: Armature|PointAction
+    7400006: Armature|PointAction.001
+    9500000: //RootNode
+    13700000: Squirrel
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

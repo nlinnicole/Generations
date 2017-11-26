@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 69f9dadfb96afd640a3f96e74d393685
-timeCreated: 1509056635
+guid: ffaba2c9519012941b52691daddc3a80
+timeCreated: 1511679829
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -9,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: TallestTree
+    4300000: Cube
   materials:
     importMaterials: 1
     materialName: 0
