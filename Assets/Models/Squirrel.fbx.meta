@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a1a1f6db70d2b54479a3082d066cef59
-timeCreated: 1511678476
+timeCreated: 1511840549
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -102,10 +102,9 @@ ModelImporter:
     400092: Tail_5
     400094: Tail_5_end
     4300000: Squirrel
-    7400000: Armature|ArmatureAction
-    7400002: Armature|CameraAction
-    7400004: Armature|PointAction
-    7400006: Armature|PointAction.001
+    7400000: Armature|Look
+    7400002: Armature|RunCycle
+    7400004: Armature|RunCycle (1)
     9500000: //RootNode
     13700000: Squirrel
   materials:
@@ -131,7 +130,63 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|RunCycle (1)
+      takeName: Armature|RunCycle
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|RunCycle
+      takeName: Armature|RunCycle
+      firstFrame: 0
+      lastFrame: 21
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
