@@ -27,7 +27,8 @@ public class FoxController : MonoBehaviour
             float fracJourney = distCovered / journeyLength;
             transform.position = Vector3.Lerp(startMarker.position, endMarker.position, fracJourney);
         }
-        else {
+        else
+        {
             anim.SetTrigger("Drink");
         }
      }

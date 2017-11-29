@@ -38,7 +38,7 @@ public class RobotTrigger : MonoBehaviour
                 transform.position = new Vector3(-10, 20, -7);
                 timer = 0;
                 ++animalEventIndex;
-                if (animalEventIndex >= 0) {
+                if (animalEventIndex >= 0 && animalEventIndex < animalEvents.Length) {
                     animalEvents[animalEventIndex].SetActive(true);
                 }
 
