@@ -221,7 +221,9 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
     <Compile Include="Assets\Scripts\FadeScreen.cs" />
-    <Compile Include="Assets\Scripts\Trigger_Events.cs" />
+    <Compile Include="Assets\Scripts\FoxController.cs" />
+    <Compile Include="Assets\Scripts\RobotTrigger.cs" />
+    <Compile Include="Assets\Scripts\SquirrelController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />

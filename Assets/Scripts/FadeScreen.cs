@@ -14,12 +14,10 @@ public class FadeScreen : MonoBehaviour
     private float alpha = 1f;
     private float fadeDir = -1f;
 
-    // Use this for initialization
     void Start()
     {
         fadeIn();
     }
-
 
     void OnGUI()
     {
@@ -30,7 +28,6 @@ public class FadeScreen : MonoBehaviour
         newColor.a = alpha;
 
         GUI.color = newColor;
-
         GUI.depth = drawDepth;
 
         GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), fadeTexture);
