@@ -7,8 +7,8 @@ using System.Timers;
 [RequireComponent(typeof(Collider))]
 public class RobotTrigger : MonoBehaviour
 {
-    public Material inactiveMaterial;
-    public Material gazedAtMaterial;
+    //public Material inactiveMaterial;
+    //public Material gazedAtMaterial;
     private float timer;
     public float gazeTime = 2f;
     public GameObject player;
@@ -35,7 +35,7 @@ public class RobotTrigger : MonoBehaviour
             if (timer >= gazeTime)
             {
                 player.transform.position = new Vector3(0, 20, 0);
-                transform.position = new Vector3(-10, 20, -7);
+                transform.position = new Vector3(-5, 20, -2);
                 timer = 0;
                 ++animalEventIndex;
                 if (animalEventIndex >= 0 && animalEventIndex < animalEvents.Length) {
@@ -52,12 +52,12 @@ public class RobotTrigger : MonoBehaviour
     public void SetGazedAt(bool gazedAt)
     {
         isGazedAt = gazedAt;
-        if (inactiveMaterial != null && gazedAtMaterial != null)
-        {
-            GetComponent<Renderer>().material = gazedAt ? gazedAtMaterial : inactiveMaterial;
-            return;
-        }
-        GetComponent<Renderer>().material.color = gazedAt ? Color.green : Color.red;
+        //if (inactiveMaterial != null && gazedAtMaterial != null)
+        //{
+        //    GetComponent<Renderer>().material = gazedAt ? gazedAtMaterial : inactiveMaterial;
+        //    return;
+        //}
+        //GetComponent<Renderer>().material.color = gazedAt ? Color.green : Color.red;
     }
 
     public void Recenter()
