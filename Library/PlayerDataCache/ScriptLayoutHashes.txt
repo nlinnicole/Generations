@@ -87,6 +87,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 05d7814a54ff9d6b4b99cd2ce7421f90 Assembly-CSharp.dll:.TranslateScrollEffect
+05318f4908deed8107ac560549c40b8f Assembly-CSharp.dll:.FoxController
 96fa541852811a74a7726ae73c544810 Assembly-CSharp.dll:.GvrArmModel
 03bbed44bf0809da9eb453e702673301 Assembly-CSharp.dll:.GvrAudioRoom
 7145f8261763e133c64c6e3d29fe65ca Assembly-CSharp.dll:.DemoInputManager
@@ -132,6 +133,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 64e53bc128400f563a86ade43816f1c3 Assembly-CSharp.dll:.FloatTile
+05318f4908deed8107ac560549c40b8f Assembly-CSharp.dll:.SquirrelController
 3cdbcbe3eecc7b2618bb53f62d0d1466 Assembly-CSharp.dll:.PagedScrollRect
 03f12694d8815c5c1846b514244afecc Assembly-CSharp.dll:.GvrAllEventsTrigger
 8dcc2f1f2300fb8d73cea378ddc8fcc8 Assembly-CSharp.dll:.ChildrenPageProvider
@@ -140,6 +142,8 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 07fa47575215f13cb6a7a76ce2f5bb55 Assembly-CSharp.dll:.PrefabPageProvider
 ec7197ab43ffb42a7321b609332a9861 Assembly-CSharp.dll:.GvrTrackedController
 31e91faba2267dbf8c0fe528bca54ff7 Assembly-CSharp.dll:.GvrLaserPointer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Water.WaterBasic
+b336b1b9c47a192cbc3addc798efe954 Assembly-CSharp.dll:.FadeScreen
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -173,6 +177,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 eca6588934e978a74735e6737af683a8 Assembly-CSharp.dll:.GvrReticlePointer
+ab5054e1ec28a31cd75f08e8243fd539 Assembly-CSharp.dll:.RobotTrigger
 4b8ea17c4350779db30d026c2281dfcb Assembly-CSharp.dll:.PooledPageProvider
 2a13deadfd379d1bb4ab0ebd2c20ca7e Assembly-CSharp.dll:.GvrLaserVisual
 24f6a3eb1c9b232bcf23fbcef06cdf98 Assembly-CSharp.dll:.GvrControllerVisual
