@@ -14,9 +14,11 @@ public class RobotTrigger : MonoBehaviour
     public GameObject player;
     public bool isGazedAt = false;
 
-    public GameObject[] animalEvents = new GameObject[3];
+    public GameObject[] animalEvents = new GameObject[4];
+    public Transform[] robotLocations = new Transform[4];
 
-    private int animalEventIndex = -2;
+    private int eventIndex = -1;
+    private Vector3 playerPos = new Vector3(0, 20, 0);
 
     void Start()
     {
@@ -34,12 +36,16 @@ public class RobotTrigger : MonoBehaviour
             timer += Time.deltaTime;
             if (timer >= gazeTime)
             {
-                player.transform.position = new Vector3(0, 20, 0);
                 transform.position = new Vector3(-5, 20, -2);
+                if (player.transform.position != playerPos) {
+                    player.transform.position = playerPos;
+                }
                 timer = 0;
-                ++animalEventIndex;
-                if (animalEventIndex >= 0 && animalEventIndex < animalEvents.Length) {
-                    animalEvents[animalEventIndex].SetActive(true);
+                ++eventIndex;
+                if (eventIndex >= 0 && eventIndex < animalEvents.Length) {
+                    animalEvents[eventIndex].SetActive(true);
+                    transform.position = robotLocations[eventIndex].position;
+                    transform.rotation = robotLocations[eventIndex].rotation;
                 }
 
             }
