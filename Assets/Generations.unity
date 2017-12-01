@@ -558,14 +558,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 907292807}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.29554132, z: 0, w: 0.95533}
   m_LocalPosition: {x: 13.4, y: 4.2, z: 576.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 959308593}
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 34.38, z: 0}
 --- !u!95 &907292809
 Animator:
   serializedVersion: 3
@@ -1670,7 +1670,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1451797330}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23, y: -11, z: 104.1}
+  m_LocalPosition: {x: -39.3, y: -11, z: 104.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 260177761}
@@ -2668,10 +2668,12 @@ MonoBehaviour:
   - {fileID: 1806619978}
   - {fileID: 1578067171}
   robotLocations:
+  - {fileID: 1365002263}
   - {fileID: 687963817}
   - {fileID: 1266891097}
   - {fileID: 1912218912}
-  - {fileID: 1266891097}
+  destination: {fileID: 687963817}
+  journeyTime: 3
 --- !u!136 &2069004227
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2692,7 +2694,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2069004224}
   m_LocalRotation: {x: 0, y: 0.5735764, z: 0, w: 0.8191521}
-  m_LocalPosition: {x: 8.02, y: 4.85, z: 572.32}
+  m_LocalPosition: {x: 6.3, y: 4.85, z: 577.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 459462089}
