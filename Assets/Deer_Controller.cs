@@ -7,6 +7,7 @@ public class Deer_Controller : MonoBehaviour {
     public Transform startMarker;
     public Transform endMarker;
     public float speed = 1.0F;
+    public float delay;
     private float startTime;
     private float journeyLength;
 
@@ -18,11 +19,14 @@ public class Deer_Controller : MonoBehaviour {
     }
     void Update()
     {
-        if (transform.position != endMarker.position)
+        if (Time.time - delay >= 0)
         {
-            float distCovered = (Time.time - startTime) * speed;
-            float fracJourney = distCovered / journeyLength;
-            transform.position = Vector3.Lerp(startMarker.position, endMarker.position, fracJourney);
+            if (transform.position != endMarker.position)
+            {
+                float distCovered = (Time.time - startTime) * speed;
+                float fracJourney = distCovered / journeyLength;
+                transform.position = Vector3.Lerp(startMarker.position, endMarker.position, fracJourney);
+            }
         }
     }
 }

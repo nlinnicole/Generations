@@ -286,6 +286,12 @@
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>C:/Users/Adriano/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
+    <Reference Include="ChannelPurchase">
+      <HintPath>C:/Users/Adriano/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.xiaomi@1.0.0/UnityChannel/ChannelPurchase.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityStore">
+      <HintPath>C:/Users/Adriano/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.xiaomi@1.0.0/UnityChannel/UnityStore.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -321,6 +327,10 @@
     <Compile Include="Assets\GoogleVR\Editor\GvrEditorEmulatorEditor.cs" />
     <Compile Include="Assets\GoogleVR\Editor\GvrEditorMenu.cs" />
     <Compile Include="Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
+    <Compile Include="Packages\com.unity.xiaomi@1.0.0\UnityChannel\XiaomiSupport\Editor\AppStoreModel.cs" />
+    <Compile Include="Packages\com.unity.xiaomi@1.0.0\UnityChannel\XiaomiSupport\Editor\AppStoreOnboardApi.cs" />
+    <Compile Include="Packages\com.unity.xiaomi@1.0.0\UnityChannel\XiaomiSupport\Editor\AppStoreSettingsEditor.cs" />
+    <Compile Include="Packages\com.unity.xiaomi@1.0.0\UnityChannel\XiaomiSupport\Editor\XiaomiPackageNameExtension.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />

@@ -9,7 +9,7 @@ public class FoxController : MonoBehaviour
     public float speed = 1.0F;
     private float startTime;
     private float journeyLength;
-
+    public float delay;
     public Animator anim;
 
     void Start()
@@ -21,15 +21,18 @@ public class FoxController : MonoBehaviour
     }
     void Update()
     {
-        if (transform.position != endMarker.position)
+        if (Time.time - delay >= 0)
         {
-            float distCovered = (Time.time - startTime) * speed;
-            float fracJourney = distCovered / journeyLength;
-            transform.position = Vector3.Lerp(startMarker.position, endMarker.position, fracJourney);
-        }
-        else
-        {
-            anim.SetTrigger("Drink");
+            if (transform.position != endMarker.position)
+            {
+                float distCovered = (Time.time - startTime) * speed;
+                float fracJourney = distCovered / journeyLength;
+                transform.position = Vector3.Lerp(startMarker.position, endMarker.position, fracJourney);
+            }
+            else
+            {
+                anim.SetTrigger("Drink");
+            }
         }
      }
 }

@@ -158,6 +158,7 @@ MonoBehaviour:
   startMarker: {fileID: 818973251}
   endMarker: {fileID: 1844444448}
   speed: 3
+  delay: 3
 --- !u!1 &173298062
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,6 +547,7 @@ MonoBehaviour:
   startMarker: {fileID: 500026771}
   endMarker: {fileID: 1451797331}
   speed: 8
+  delay: 2
   anim: {fileID: 777536959}
 --- !u!1 &741169244
 GameObject:
@@ -663,7 +665,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 761932934}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 31, y: -15, z: -88.1}
+  m_LocalPosition: {x: -20.7, y: -15, z: -61.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 260177761}
@@ -1253,7 +1255,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400044, guid: 6da085466ff989e45ac90f7227dfb984, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 70.35
+      value: 14.3
       objectReference: {fileID: 0}
     - target: {fileID: 400044, guid: 6da085466ff989e45ac90f7227dfb984, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1261,7 +1263,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400044, guid: 6da085466ff989e45ac90f7227dfb984, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -168.06
+      value: -165.5
       objectReference: {fileID: 0}
     - target: {fileID: 400044, guid: 6da085466ff989e45ac90f7227dfb984, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1269,7 +1271,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400044, guid: 6da085466ff989e45ac90f7227dfb984, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.20630383
+      value: 0.10404653
       objectReference: {fileID: 0}
     - target: {fileID: 400044, guid: 6da085466ff989e45ac90f7227dfb984, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1277,7 +1279,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400044, guid: 6da085466ff989e45ac90f7227dfb984, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.97848797
+      value: 0.99457246
       objectReference: {fileID: 0}
     - target: {fileID: 400044, guid: 6da085466ff989e45ac90f7227dfb984, type: 3}
       propertyPath: m_RootOrder
@@ -1833,7 +1835,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400044, guid: 6da085466ff989e45ac90f7227dfb984, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -23.812
+      value: 11.944
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6da085466ff989e45ac90f7227dfb984, type: 3}
@@ -2288,7 +2290,7 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: That's a FOX over there! According to the SEGA Guide of Critters, by Dr.
-    Eggman Robotnik, FOXES have two tails.
+    Eggman Robotnik, FOXES had two tails.
 --- !u!222 &1301247003
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2432,7 +2434,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400008, guid: 9ff479e6bb67e0e489e8bc657eaf867d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -34.6
+      value: -24.8
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 9ff479e6bb67e0e489e8bc657eaf867d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2440,23 +2442,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 9ff479e6bb67e0e489e8bc657eaf867d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 125
+      value: 127.7
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 9ff479e6bb67e0e489e8bc657eaf867d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.011700279
+      value: 0.02597854
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 9ff479e6bb67e0e489e8bc657eaf867d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.98717725
+      value: 0.9956403
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 9ff479e6bb67e0e489e8bc657eaf867d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.086366855
+      value: -0.08319403
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 9ff479e6bb67e0e489e8bc657eaf867d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.13373475
+      value: -0.03323287
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 9ff479e6bb67e0e489e8bc657eaf867d, type: 3}
       propertyPath: m_RootOrder
@@ -2464,7 +2466,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 9ff479e6bb67e0e489e8bc657eaf867d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 164.57
+      value: 184.09799
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 9ff479e6bb67e0e489e8bc657eaf867d, type: 3}
       propertyPath: m_LocalScale.x
@@ -2488,7 +2490,11 @@ Prefab:
       objectReference: {fileID: 9100000, guid: edd26bcdbc5218645b45b979b6f62668, type: 2}
     - target: {fileID: 400008, guid: 9ff479e6bb67e0e489e8bc657eaf867d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 10
+      value: 9.435
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: 9ff479e6bb67e0e489e8bc657eaf867d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 3.328
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ff479e6bb67e0e489e8bc657eaf867d, type: 3}
@@ -2606,6 +2612,7 @@ MonoBehaviour:
   startMarker: {fileID: 761932935}
   endMarker: {fileID: 1992824019}
   speed: 2
+  delay: 2
   anim: {fileID: 0}
 --- !u!54 &1806619980
 Rigidbody:

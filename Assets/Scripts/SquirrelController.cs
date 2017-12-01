@@ -7,6 +7,7 @@ public class SquirrelController : MonoBehaviour {
     public Transform startMarker;
     public Transform endMarker;
     public float speed = 1.0F;
+    public float delay;
     private float startTime;
     private float journeyLength;
 
@@ -21,15 +22,18 @@ public class SquirrelController : MonoBehaviour {
     }
     void Update()
     {
-        if (transform.position != endMarker.position)
+        if (Time.time - delay >= 0)
         {
-            float distCovered = (Time.time - startTime) * speed;
-            float fracJourney = distCovered / journeyLength;
-            transform.position = Vector3.Lerp(startMarker.position, endMarker.position, fracJourney);
-        }
-        else
-        {
-            anim.SetTrigger("Look");
+            if (transform.position != endMarker.position)
+            {
+                float distCovered = (Time.time - startTime) * speed;
+                float fracJourney = distCovered / journeyLength;
+                transform.position = Vector3.Lerp(startMarker.position, endMarker.position, fracJourney);
+            }
+            else
+            {
+                anim.SetTrigger("Look");
+            }
         }
     }
 }
