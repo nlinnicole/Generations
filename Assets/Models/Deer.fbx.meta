@@ -1,0 +1,233 @@
+fileFormatVersion: 2
+guid: 9ff479e6bb67e0e489e8bc657eaf867d
+timeCreated: 1512103839
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: breast.L
+    100002: breast.L_end
+    100004: breast.R
+    100006: breast.R_end
+    100008: //RootNode
+    100010: Deer_LP
+    100012: foot.L
+    100014: foot.L.001
+    100016: foot.L.001_end
+    100018: foot.R
+    100020: foot.R.001
+    100022: foot.R.001_end
+    100024: front_foot.L
+    100026: front_foot.L.001
+    100028: front_foot.L.001_end
+    100030: front_foot.R
+    100032: front_foot.R.001
+    100034: front_foot.R.001_end
+    100036: front_shin.L
+    100038: front_shin.R
+    100040: front_thigh.L
+    100042: front_thigh.R
+    100044: front_toe.L
+    100046: front_toe.L_end
+    100048: front_toe.R
+    100050: front_toe.R_end
+    100052: metarig
+    100054: pelvis.L
+    100056: pelvis.L_end
+    100058: pelvis.R
+    100060: pelvis.R_end
+    100062: shin.L
+    100064: shin.R
+    100066: shoulder.L
+    100068: shoulder.R
+    100070: spine.005
+    100072: spine.006
+    100074: spine.007
+    100076: spine.008
+    100078: spine.009
+    100080: spine.010
+    100082: spine.011
+    100084: spine.011_end
+    100086: spine.012
+    100088: spine.013
+    100090: spine.014
+    100092: spine.015
+    100094: spine.015_end
+    100096: spine.016
+    100098: spine.017
+    100100: spine.018
+    100102: spine.019
+    100104: spine.019_end
+    100106: thigh.L
+    100108: thigh.R
+    100110: toe.L
+    100112: toe.L_end
+    100114: toe.R
+    100116: toe.R_end
+    400000: breast.L
+    400002: breast.L_end
+    400004: breast.R
+    400006: breast.R_end
+    400008: //RootNode
+    400010: Deer_LP
+    400012: foot.L
+    400014: foot.L.001
+    400016: foot.L.001_end
+    400018: foot.R
+    400020: foot.R.001
+    400022: foot.R.001_end
+    400024: front_foot.L
+    400026: front_foot.L.001
+    400028: front_foot.L.001_end
+    400030: front_foot.R
+    400032: front_foot.R.001
+    400034: front_foot.R.001_end
+    400036: front_shin.L
+    400038: front_shin.R
+    400040: front_thigh.L
+    400042: front_thigh.R
+    400044: front_toe.L
+    400046: front_toe.L_end
+    400048: front_toe.R
+    400050: front_toe.R_end
+    400052: metarig
+    400054: pelvis.L
+    400056: pelvis.L_end
+    400058: pelvis.R
+    400060: pelvis.R_end
+    400062: shin.L
+    400064: shin.R
+    400066: shoulder.L
+    400068: shoulder.R
+    400070: spine.005
+    400072: spine.006
+    400074: spine.007
+    400076: spine.008
+    400078: spine.009
+    400080: spine.010
+    400082: spine.011
+    400084: spine.011_end
+    400086: spine.012
+    400088: spine.013
+    400090: spine.014
+    400092: spine.015
+    400094: spine.015_end
+    400096: spine.016
+    400098: spine.017
+    400100: spine.018
+    400102: spine.019
+    400104: spine.019_end
+    400106: thigh.L
+    400108: thigh.R
+    400110: toe.L
+    400112: toe.L_end
+    400114: toe.R
+    400116: toe.R_end
+    4300000: Deer_LP
+    7400000: metarig|metarigAction
+    7400002: Deer|WalkCycle
+    9500000: //RootNode
+    13700000: Deer_LP
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Deer|WalkCycle
+      takeName: metarig|metarigAction.002
+      firstFrame: 0
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
